@@ -18,19 +18,13 @@ Realtime chatová aplikace vytvořená pomocí React, Zustand, Socket.io‑clien
    ```bash
    git clone https://github.com/Bexshmex/ChatApp.git
    cd ChatApp
-npm install
-npm run build
+
+   
+npm install, 
+npm run build, 
 npm run start
 
-ChatApp/
-├── public/               # statické soubory (index.html)
-├── src/
-│   ├── components/       # React komponenty
-│   ├── store/            # Zustand stav (např. useChatStore, useAuthStore)
-│   ├── lib/              # např. axios instance
-│   └── App.jsx           # hlavní komponenta aplikace
-├── package.json
-└── vite.config.js
+
 
 | Skript          | Účel                                    |
 | --------------- | --------------------------------------- |
@@ -39,6 +33,7 @@ ChatApp/
 | `npm run start` | Spustí produkční build (např. lokálně)  |
 | `npm run lint`  | Spustí lintování kódu (pokud nastaveno) |
 | `npm run test`  | Spustí testy (pokud jsou napsané)       |
+
 
 npm install zustand socket.io-client axios
 
